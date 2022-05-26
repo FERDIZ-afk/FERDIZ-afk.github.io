@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/><link rel="manifest" href="/manifest.json"/>
+  <title>My Portfolio</title>
+  <link href="/static/css/main.ba02b231.chunk.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://yogipw.cf/css/halfmoon-variables.min.css" rel="stylesheet" />
+  </head>
+  
+    <!-- tes add kalau salah hapus body -->
+<body data-set-preferred-mode-onload="true" class="with-custom-webkit-scrollbars with-custom-css-scrollbars" >
+    <audio autoplay="autoplay" hidden="hidden" src="https://i.top4top.io/m_1858bnc0r9.mp3"></audio>
+  <!-- Page wrapper with navbar, sidebar, and navbar fixed bottom -->
+  <div class="page-wrapper with-navbar with-sidebar ">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-content">
+        <button id="toggle-sidebar-btn" class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+      <p class="navbar-brand ml-10 ml-sm-15">
+        FERDIZ-AFK
+      </p>
+      <div class="navbar-content ml-auto">
+
+        <!-- Github button container 1 start -->
+        <div class="pt-5 mr-5 d-none" id="gh-star-btn-container-1">
+          <div class="hidden-dm">
+            <a class="github-button" href="https://github.com/halfmoonui/halfmoon" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star halfmoonui/halfmoon on GitHub">Star</a>
+          </div>
+          <div class="hidden-lm">
+            <a class="github-button" href="https://github.com/halfmoonui/halfmoon" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star halfmoonui/halfmoon on GitHub">Star</a>
+          </div>
+        </div>
+        <!-- Github button container 1 end -->
+
+        <button class="btn btn-action mr-5" type="button" onclick="halfmoon.toggleDarkMode()" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+
+      </nav>
+      <!-- Sidebar -->
+      <div class="sidebar">
+  <div class="sidebar-menu">
+    <!-- Sidebar links (with icons) and titles -->
+    <h5 class="sidebar-title">Getting started</h5>
+    <div class="sidebar-divider"></div>
+    <a href="/" id="profile" class="sidebar-link sidebar-link-with-icon">
+      <span class="sidebar-icon">
+        <i class="fa fa-user" aria-hidden="true"></i>
+      </span>
+      Profile
+    </a>
+    <a
+      href="/dashboard"
+      id="dashboard"
+      class="sidebar-link sidebar-link-with-icon"
+    >
+      <span class="sidebar-icon">
+        <i class="fa fa-book" aria-hidden="true"></i>
+      </span>
+      Dashboard
+    </a>
+    <a href="/chatbox" id="chat" class="sidebar-link sidebar-link-with-icon">
+      <span class="sidebar-icon">
+        <i class="fa fa-comment" aria-hidden="true"></i>
+      </span>
+      Chat Box
+    </a>
+    <br />
+    <!-- 
+    <h5 class="sidebar-title">
+      Gabut ?? coba cek dibawah ini<i
+        class="fa fa-smile-o"
+        aria-hidden="true"
+      ></i>
+    </h5>
+    <div class="sidebar-divider"></div>
+    <a href="/tictactoe" class="sidebar-link sidebar-link-with-icon">
+      Tictactoe
+    </a>
+    <a href="/tebak-siapa" class="sidebar-link sidebar-link-with-icon">
+      Tebak siapa
+    </a>
+    <a href="/purba" class="sidebar-link sidebar-link-with-icon">
+      Bahasa purba
+    </a>
+    <a href="/ninjaname" class="sidebar-link sidebar-link-with-icon">
+      Ninja name
+    </a>
+    <a href="/stress" class="sidebar-link sidebar-link-with-icon">
+      Stress text
+    </a>
+    <br />
+    -->
+    <h5 class="sidebar-title">Tools</h5>
+    <div class="sidebar-divider"></div>
+    <a href="/kalkulator" class="sidebar-link sidebar-link-with-icon">
+      Kalkulator
+    </a>
+    <a href="/formatter" class="sidebar-link sidebar-link-with-icon">
+      Indo formatter
+    </a>
+    <a href="/canvas" class="sidebar-link sidebar-link-with-icon">
+      Image manipulation(Canvas)
+    </a>
+  </div>
+</div>
+
+    <!-- Content wrapper -->
+      <div class="content-wrapper">
+<div id="root"></div>
+  
+<script>!function(e){function r(r){for(var n,i,a=r[0],c=r[1],l=r[2],p=0,s=[];p<a.length;p++)i=a[p],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(r);s.length;)s.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var c=t[a];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=function(e){return i.p+"static/js/"+({}[e]||e)+"."+{3:"727d29c2"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){a.onerror=a.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}return Promise.all(r)},i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/",i.oe=function(e){throw console.error(e),e};var a=this.webpackJsonpportfolio=this.webpackJsonpportfolio||[],c=a.push.bind(a);a.push=r,a=a.slice();for(var l=0;l<a.length;l++)r(a[l]);var f=c;t()}([])</script>
+</div>
+
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Requires halfmoon.js for toggling sidebar -->
+    <script>
+      AOS.init();
+    </script>
+        <!-- Halfmoon JS -->
+
+    <script src="https://yogipw.cf/js/halfmoon.min.js"></script>
+
+        <!-- akhir dari tes add  -->
+    
+    
+
+
+<script src="/static/js/2.31b3382d.chunk.js"></script>
+<script src="/static/js/main.2d9db2ce.chunk.js"></script>
+</body>
+</html>
